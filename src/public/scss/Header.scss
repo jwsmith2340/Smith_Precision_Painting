@@ -1,0 +1,39 @@
+#header_box {
+    height: 10vh;
+    width: 100vw;
+    background-color: green;
+
+    .mob {
+
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .mob-menu-btn {
+
+            width: 25vw;
+            font-size: 30px;
+
+            background-color: blue;
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mob-logo {
+
+            width: 25vw;
+            font-size: 30px;
+
+            background-color: red;
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
