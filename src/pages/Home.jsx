@@ -1,7 +1,8 @@
 import '../public/scss/Home.scss'
 
 import Header from '../components/Header'
-import Splash from '../components/Splash'
+import Splash from '../components/Main_Components/Splash'
+import Services from '../components/Main_Components/Services'
 
 function Home() {
 
@@ -20,6 +21,35 @@ function Home() {
                     <Splash />
 
                 </div>
+
+                <div className="mob-spacer-block"></div>
+
+                <div className="mob-main-services-box">
+
+                    <Services />
+
+                </div>
+
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+                <div className="mob-spacer-block"></div>
+
 
             </div>
             

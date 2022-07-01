@@ -1,4 +1,4 @@
-import '../public/scss/Splash.scss'
+import '../../public/scss/Splash.scss'
 
 function Splash() {
 
