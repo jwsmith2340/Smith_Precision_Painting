@@ -1,0 +1,39 @@
+.mob-splash-container {
+
+    height: 100%;
+    width: 100%;
+    background-color: cornflowerblue;
+    background-image: url('../../../hard_files/tsmith_splash_1.jpg');
+    
+    background-size: cover;
+    z-index: 0;
+
+    .mob-splash-container-shadow {
+
+        height: 100%;
+        width: 100%;
+        background-color: rgba(20,20,20,.4);
+        z-index: 1;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h2 {
+
+            color: white;
+            font-size: x-large;
+
+        }
+
+        h3 {
+
+            color: white;
+            font-size: large;
+
+        }
+
+    }
+
+}
