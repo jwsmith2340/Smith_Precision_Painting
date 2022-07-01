@@ -1,0 +1,32 @@
+.mob-sidebar {
+
+    height: 90vh;
+    width: 100vw;
+    z-index: 1000;
+    background-color: blue;
+
+    .mob-sidebar-close-box {
+
+        height: 10vh;
+        margin-top: 0;
+        background-color: red;
+
+        .mob-sidebar-close-button {
+
+            width: 25vw;
+            height: 100%;
+            font-size: 30px;
+
+            background-color: blue;
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+    }       
+
+}
