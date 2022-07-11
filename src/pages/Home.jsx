@@ -3,6 +3,8 @@ import '../public/scss/Home.scss'
 import Header from '../components/Header'
 import Splash from '../components/Main_Components/Splash'
 import Services from '../components/Main_Components/Services'
+import Insurance from '../components/Main_Components/Insurance'
+import Footer from '../components/Footer'
 
 function Home() {
 
@@ -31,27 +33,28 @@ function Home() {
                 </div>
 
                 <div className="mob-spacer-block"></div>
+
+                <div className="mob-main-services-box">
+
+                    <Insurance />
+
+                </div>
+
+                <div className="mob-spacer-block"></div>
+
+
+
                 <div className="mob-spacer-block"></div>
                 <div className="mob-spacer-block"></div>
                 <div className="mob-spacer-block"></div>
                 <div className="mob-spacer-block"></div>
                 <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
-                <div className="mob-spacer-block"></div>
+              
 
 
             </div>
+
+            <Footer />
             
 
         </>
